@@ -29,4 +29,5 @@ def main():
     print 'Your result: {}'.format(binary_str)
     print 'actual result: {:8}'.format(str(bin(int(binary_str,2))))
 
-main()
+if __name__ == '__main__':
+    main()
